@@ -241,7 +241,7 @@ class WC_Gateway_ShareCommerce extends WC_Payment_Gateway {
         $query_string = substr($query_string, 0, -1);
 
         if ($this->environment_mode == 'test') {
-            $environment_url = 'http://localhost:5001/Payment';
+            $environment_url = 'https://stagingpayment.share-commerce.com/Payment';
         } else {
             $environment_url = 'https://payment.share-commerce.com/Payment';
         }
