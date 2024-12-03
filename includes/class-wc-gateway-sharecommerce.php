@@ -215,6 +215,8 @@ class WC_Gateway_ShareCommerce extends WC_Payment_Gateway {
             'CustAddressState' => $billingstate,
             'CustAddressCity' => $billingcity,
             'RedirectUrl' => $this->redirecturl,
+            'Versioning' => 7,
+            'PaymentMethod' => '',
         );
 
         // echo "<PRE>";
