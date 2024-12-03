@@ -198,7 +198,7 @@ class WC_Gateway_ShareCommerce extends WC_Payment_Gateway {
 
         $post_args = array(
             'MerchantID' => $this->merchantid,
-            'CurrencyCode' => 'MYR',
+            'CurrencyCode' => get_woocommerce_currency(),
             'TxnAmount' => $amount,
             'MerchantOrderNo' => $order_id . '_' . time(),
             'MerchantOrderDesc' => "Payment for Order No. : " . $order_id,

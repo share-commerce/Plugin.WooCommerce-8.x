@@ -3,7 +3,7 @@
  * Plugin Name: Share Commerce Gateway 
  * Plugin URI: https://www.share-commerce.com/
  * Description: Share Commerce Gateway Plugin for WooCommerce.
- * Version: 1.0.8
+ * Version: 1.0.9
  *
  * Author: Share Commerce
  * Author URI: https://www.share-commerce.com/
